@@ -9,8 +9,8 @@ const Noticia = ({noticia}) => {
                 <h5 className="card-title">{noticia.title}</h5>
                 <p className="card-text">{noticia.description}}</p>
             </div>
-            <div className="card-footer">
-                <a href={noticia.url} target="_blank"><button className="btn btn-success-primary">VER NOTICIA COMPLETA</button></a>
+            <div className="card-footer text-center">
+                <a href={noticia.url} target="_blank"><button className="btn btn-success">VER NOTICIA COMPLETA</button></a>
             </div>
         </div>
     );

@@ -18,7 +18,7 @@ class SeccionNoticias extends Component {
 
                     <div className="row">
                         {this.props.noticias.map(noticia => (
-                            <div className="col">
+                            <div className="col-md-4">
                                 <Noticia noticia={noticia}/>
                             </div>
                         ))}
