@@ -13,7 +13,8 @@ class App extends Component {
 
   consultarNoticias = async (categoria = 'general') => {
     const URL_BASE = process.env.REACT_APP_API_URL;
-    const TOP_HEADLINES_URL = URL_BASE+'top-headlines?country=mx&category='+categoria+'&apiKey='+process.env.REACT_APP_NEWS_API_KEY;
+    const TOP_HEADLINES_URL = `${URL_BASE}top-headlines?country=mx&category=${categoria}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`;
+    //const TOP_HEADLINES_URL = URL_BASE+'top-headlines?country=mx&category='+categoria+'&apiKey='+process.env.REACT_APP_NEWS_API_KEY;
     //const TOP_HEADLINES_URL = URL_BASE+'top-headlines?country=mx&category=${categoria}&apiKey='+process.env.REACT_APP_NEWS_API_KEY;
 
     const respuesta = await fetch(TOP_HEADLINES_URL);
