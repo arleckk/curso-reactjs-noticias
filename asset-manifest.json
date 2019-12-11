@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/curso-reactjs-noticias/static/css/main.0ff9ccd6.chunk.css",
-    "main.js": "/curso-reactjs-noticias/static/js/main.568c1096.chunk.js",
-    "main.js.map": "/curso-reactjs-noticias/static/js/main.568c1096.chunk.js.map",
+    "main.js": "/curso-reactjs-noticias/static/js/main.1811912d.chunk.js",
+    "main.js.map": "/curso-reactjs-noticias/static/js/main.1811912d.chunk.js.map",
     "runtime-main.js": "/curso-reactjs-noticias/static/js/runtime-main.451d9819.js",
     "runtime-main.js.map": "/curso-reactjs-noticias/static/js/runtime-main.451d9819.js.map",
     "static/js/2.e0aab205.chunk.js": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js",
     "static/js/2.e0aab205.chunk.js.map": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js.map",
     "index.html": "/curso-reactjs-noticias/index.html",
-    "precache-manifest.0fbf00be27b312b1aff4759b016941fa.js": "/curso-reactjs-noticias/precache-manifest.0fbf00be27b312b1aff4759b016941fa.js",
+    "precache-manifest.edd7cc584e3f309a5f9c4e73e3394c5e.js": "/curso-reactjs-noticias/precache-manifest.edd7cc584e3f309a5f9c4e73e3394c5e.js",
     "service-worker.js": "/curso-reactjs-noticias/service-worker.js",
     "static/css/main.0ff9ccd6.chunk.css.map": "/curso-reactjs-noticias/static/css/main.0ff9ccd6.chunk.css.map",
     "static/js/2.e0aab205.chunk.js.LICENSE": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.451d9819.js",
     "static/js/2.e0aab205.chunk.js",
     "static/css/main.0ff9ccd6.chunk.css",
-    "static/js/main.568c1096.chunk.js"
+    "static/js/main.1811912d.chunk.js"
   ]
 }
