@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/curso-reactjs-noticias/static/css/main.26029b58.chunk.css",
+    "main.js": "/curso-reactjs-noticias/static/js/main.d97237a0.chunk.js",
+    "main.js.map": "/curso-reactjs-noticias/static/js/main.d97237a0.chunk.js.map",
+    "runtime-main.js": "/curso-reactjs-noticias/static/js/runtime-main.451d9819.js",
+    "runtime-main.js.map": "/curso-reactjs-noticias/static/js/runtime-main.451d9819.js.map",
+    "static/js/2.e0aab205.chunk.js": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js",
+    "static/js/2.e0aab205.chunk.js.map": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js.map",
+    "index.html": "/curso-reactjs-noticias/index.html",
+    "precache-manifest.35c420ca2fb8af1431a7a685286b8775.js": "/curso-reactjs-noticias/precache-manifest.35c420ca2fb8af1431a7a685286b8775.js",
+    "service-worker.js": "/curso-reactjs-noticias/service-worker.js",
+    "static/css/main.26029b58.chunk.css.map": "/curso-reactjs-noticias/static/css/main.26029b58.chunk.css.map",
+    "static/js/2.e0aab205.chunk.js.LICENSE": "/curso-reactjs-noticias/static/js/2.e0aab205.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.451d9819.js",
+    "static/js/2.e0aab205.chunk.js",
+    "static/css/main.26029b58.chunk.css",
+    "static/js/main.d97237a0.chunk.js"
+  ]
+}
