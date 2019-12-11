@@ -17,7 +17,7 @@ const DropDownCategorias = ({handleClick}) => {
 }
  
 DropDownCategorias.propTypes = {
-    handleClick = PropTypes.func.isRequired
+    handleClick : PropTypes.func.isRequired
 }
 
 export default DropDownCategorias;

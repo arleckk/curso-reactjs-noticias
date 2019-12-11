@@ -33,7 +33,7 @@ class SeccionNoticias extends Component {
 
 SeccionNoticias.propTypes = {
     handleClick : PropTypes.func.isRequired,
-    noticias : PropTypes.object.isRequired
+    noticias : PropTypes.arrayOf(PropTypes.object).isRequired
 }
  
 export default SeccionNoticias;

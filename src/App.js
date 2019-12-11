@@ -17,8 +17,12 @@ class App extends Component {
     //const TOP_HEADLINES_URL = URL_BASE+'top-headlines?country=mx&category='+categoria+'&apiKey='+process.env.REACT_APP_NEWS_API_KEY;
     //const TOP_HEADLINES_URL = URL_BASE+'top-headlines?country=mx&category=${categoria}&apiKey='+process.env.REACT_APP_NEWS_API_KEY;
 
+    /*
     const respuesta = await fetch(TOP_HEADLINES_URL);
     const noticias = await respuesta.json();
+    */
+
+    const noticias = await fetch(TOP_HEADLINES_URL).then(data => data.json());
 
     //console.log(noticias);
     console.log(TOP_HEADLINES_URL);
