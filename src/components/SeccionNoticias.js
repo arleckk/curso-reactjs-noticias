@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DropDownCategorias from './DropDownCategorias';
 import Noticia from './Noticia';
+import PropTypes from 'prop-types';
 
 class SeccionNoticias extends Component {
     state = {  }    
@@ -28,6 +29,11 @@ class SeccionNoticias extends Component {
             </div>
         );
     }
+}
+
+SeccionNoticias.propTypes = {
+    handleClick : PropTypes.func.isRequired,
+    noticias : PropTypes.object.isRequired
 }
  
 export default SeccionNoticias;

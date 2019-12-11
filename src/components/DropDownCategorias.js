@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const DropDownCategorias = ({handleClick}) => {
     return (
@@ -15,4 +16,8 @@ const DropDownCategorias = ({handleClick}) => {
     );
 }
  
+DropDownCategorias.propTypes = {
+    handleClick = PropTypes.func.isRequired
+}
+
 export default DropDownCategorias;
